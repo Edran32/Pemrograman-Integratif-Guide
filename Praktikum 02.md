@@ -1,4 +1,6 @@
-# Praktikum-Pemin TI - A_RM-Ferdinandrey-Hananta
+# Modul 2 Praktikum Pemin TI-A
+RM Ferdinandrey Hananta
+215150701111043
 
 ## MongoDB Compass
 ### 1. Lakukan koneksi ke MongoDB menggunakan connection string
