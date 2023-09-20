@@ -3,7 +3,7 @@ CRUD MongoDB Compass dan Shell
 MongoDBCompass
 
 1. Lakukan koneksi ke MongoDB menggunakan connection string
-![Modul 2_Screenshot 1](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/9bff618e-d8c2-4a3e-a431-0d25b34d2ad6)
+![Alt text](Screenshot02/Ss1.png)
 
 2. Buat database dengan melakukan klik “Create Database”
 ![Modul 2_Screenshot 2](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/640f9c92-5000-4f0e-b676-a68f8c0b8a3b)
