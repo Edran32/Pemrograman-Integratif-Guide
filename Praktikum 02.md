@@ -24,7 +24,8 @@
 >![Alt text](Screenshot02/Ss8.png)
 >![Alt text](Screenshot02/Ss9.png)
 
-MongoDB Shell
+
+## MongoDB Shell
 
 ### 1. Lakukan koneksi ke MongoDB Server dengan menjalankan command mongosh bagi yang menggunakan terminal build in OS, Apabila kalian menggunakan MongoDB atlas, silahkan copy connection string dari MongoDB atlas kalian masing-masing dan paste kan di terminal kalian sehingga tampilan terminal kalian akan menjadi seperti berikut
 >![Alt text](Screenshot02/Ss10.png)
