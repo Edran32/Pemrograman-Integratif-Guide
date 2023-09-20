@@ -1,1 +1,64 @@
+CRUD MongoDB Compass dan Shell
 
+MongoDBCompass
+
+1. Lakukan koneksi ke MongoDB menggunakan connection string
+![Modul 2_Screenshot 1](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/9bff618e-d8c2-4a3e-a431-0d25b34d2ad6)
+
+2. Buat database dengan melakukan klik “Create Database”
+![Modul 2_Screenshot 2](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/640f9c92-5000-4f0e-b676-a68f8c0b8a3b)
+
+3. Lakukan insert buku pertama dengan melakukan klik “Add Data”, pilih “Insert Document”, isi dengan data yang diinginkan dan klik “Insert”
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/d577942b-c347-4a9e-aaf2-c41060a728dd)
+
+4. Lakukan insert buku kedua dengan cara yang sama.
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/b7244624-2a90-4aea-8ce5-05a7529c5757)
+
+5. Lakukan pencarian buku dengan author “Osamu Dazai” dengan mengisi filter yang diinginkan dan klik “Find”
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/840a3c95-c69e-4dee-b846-e21cd4233ef0)
+
+6. Lakukan perubahan summary pada buku “No Longer Human” menjadi “Buku yang bagus (<NAMA>,<NIM>) dengan melakukan klik “Edit Document” (berlambang pensil), mengisi nilai summary yang baru, dan melakukan klik “Update”
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/881b2c5a-6b7b-4cf5-9330-c2055b123ee1)
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/7c06a06b-292d-4399-a463-08d6d12e5140)
+
+7. Lakukan penghapusan pada buku “I Am a Cat” dengan melakukan klik “Remove Document” (berlambang tong sampah) dan melakukan klik “Delete”
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/ae6d490b-40d7-4b98-a956-785339c4c5d8)
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/9831f737-5252-4d57-892d-d7ed62cc4a2b)
+
+MongoDB Shell
+
+1. Lakukan koneksi ke MongoDB Server dengan menjalankan command mongosh bagi yang menggunakan terminal build in OS, Apabila kalian menggunakan MongoDB atlas, silahkan copy connection string dari MongoDB atlas kalian masing-masing dan paste kan di terminal kalian sehingga tampilan terminal kalian akan menjadi seperti berikut
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/7973e6c9-99c6-49c7-8036-95cfa44c7ef4)
+
+2. Mencoba melihat list database yang ada di server dengan menjalankan command show dbs
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/b68c369f-9a3d-4e1d-9f73-11cac2ead8a7)
+
+Untuk berpindah ke database “bookstore” gunakan command use bookstore , kalian dapat memastikan telah berpindah ke database yang benar dengan melihat tulisan sebelum tanda “>”
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/97c57478-30db-4db5-a89a-317fde498f15)
+
+Cobalah untuk melihat collection yang ada pada database tersebut dengan menggunakan command show collections
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/7422577a-36f2-4bd2-86bb-c090db194d18)
+
+3. Lakukan insert buku “Overlord I” dengan menggunakan command db.books.insertOne(<data kalian>) , setelah insert buku berhasil maka MongoDB akan mengembalikan pesan sebagai berikut.
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/ec42b720-2ef5-4327-aff7-2a3021f9d5b2)
+
+4. Lakukan insert buku “The Setting Sun” dan “Hujan” dengan insert many dengan menggunakan command db.books.insertMany(<data kalian>) , dan akan mengembalikan pesan sebagai berikut.
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/5865cb0a-0e27-4700-95a5-012166c639e6)
+
+5. Lakukan pencarian buku dengan menggunakan command db.books.find() untuk melakukan pencarian semua buku.
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/4e99ccb8-319e-418b-a1e3-0b1e9cc56eb0)
+
+6. Tampilkan seluruh buku dengan author “Osamu Dazai” dengan mengisi argument pada find() dengan menggunakan command db.books.find({<filter yang ingin diisi>})
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/a3dfe2d1-2fa3-4056-89c6-337e7c927fe4)
+
+7. Lakukan perubahan summary pada buku “Hujan” menjadi “Buku yang bagus (<NAMA>,<NIM>) dengan mengunakan command db.books.updateOne({<filter>}, {$set: {<data yang akan di update>}}) sehingga output yang dihasilkan oleh MongoDB akan menjadi seperti berikut
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/6d30929f-71eb-4861-8ec5-e71bb34b19aa)
+
+8. Lakukan perubahan publisher menjadi “Yen Press” pada semua buku “Osamu Dazai” dengan menggunakan command db.books.updateMany({<filter>}, {$set: {<data yang akan di update>}})
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/9c563d26-6ea9-41a5-b478-d481ceddc4ae)
+
+9.Lakukan penghapusan pada buku “Overlord I” dengan menggunakan command db.books.deleteOne({<argument>})
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/1e798445-620b-4df6-9985-15b147a08590)
+
+10. Lakukan penghapusan pada semua buku “Osamu Dazai dengan menggunakan command db.books.deleteMany({<argument>})
+![image](https://github.com/Edran32/Praktikum-Pemin_RM-Ferdinandrey-Hananta/assets/50135710/4f08e34c-68e0-4996-bd1e-bda3440b6a6d)
