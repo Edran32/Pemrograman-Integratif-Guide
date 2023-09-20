@@ -11,7 +11,7 @@
 >![Alt text](Screenshot02/Ss3.png)
 
 ### 4. Lakukan insert buku kedua dengan cara yang sama.
-![Alt text](Screenshot02/Ss4.png)
+>![Alt text](Screenshot02/Ss4.png)
 
 ### 5. Lakukan pencarian buku dengan author “Osamu Dazai” dengan mengisi filter yang diinginkan dan klik “Find”
 >![Alt text](Screenshot02/Ss5.png)
@@ -21,8 +21,8 @@
 >![Alt text](Screenshot02/Ss7.png)
 
 ### 7. Lakukan penghapusan pada buku “I Am a Cat” dengan melakukan klik “Remove Document” (berlambang tong sampah) dan melakukan klik “Delete”
-![Alt text](Screenshot02/Ss8.png)
-![Alt text](Screenshot02/Ss9.png)
+>![Alt text](Screenshot02/Ss8.png)
+>![Alt text](Screenshot02/Ss9.png)
 
 MongoDB Shell
 
