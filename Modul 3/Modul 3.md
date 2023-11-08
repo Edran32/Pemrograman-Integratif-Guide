@@ -489,4 +489,4 @@ Setelah itu coba jalankan aplikasi kembali
 ![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/8322f2c1-20c5-41ee-8ad9-5771e7d1e1bb)
     
 12. Hapus buku Dilan 1990 dengan Postman
-![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/203cabb2-d2a8-4a4c-8173-4da2be3f4c52)
+![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/ba9ddab4-9d5c-4e7f-b74b-e6e16fc0e44f)
