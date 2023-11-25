@@ -334,17 +334,17 @@ Tabel yang akan digunakan
 6. Buatlah satu post menggunakan Postman
    POST /posts
    `content:Anak bunda sehat selalu`
-   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/5442842a-32ee-42dd-80de-4f69c941dcb4)
+   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/e0215b5f-002f-4c59-9de0-1c0fae601da3)
 
 7. Buatlah satu comment menggunakan Postman
    POST /comments
    `review:MasyaAllah bund`
    `PostId:1`
-   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/4659f8f2-f257-4bd8-a8e0-bfd0e91ef154)
+   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/edf49b95-9962-4724-b11d-593bf9ad6d20)
 
 8. Tampilkan post menggunakan Postman
    GET /posts/1
-   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/ed8bc236-70ab-4f18-8abb-b9b3635eae10)
+   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/307a83e6-d807-44f3-a12e-549eda343645)
 
 ### Relasi Many-to-Many
 
