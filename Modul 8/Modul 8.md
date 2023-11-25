@@ -276,7 +276,7 @@
    <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/ac8e60bd-3de1-42b8-9173-276a1d62c8d6)
 
 5. Jalankan perintah di bawah untuk menjalankan migrasi terbaru `php artisan migrate`
-   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/0c44e5b9-5f21-44bf-bbee-9427edf919a0)
+   <br>![image](https://github.com/Edran32/Praktikum_Pemin/assets/50135710/b3c1c99c-3e0f-44d3-8257-32573175b4ae)
 
 6. Jalankan aplikasi pada endpoint /auth/login dengan body berikut. Salinlah token yang didapat ke notepad
 
